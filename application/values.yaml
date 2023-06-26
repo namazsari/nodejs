@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginxus-central1-docker.pkg.dev/terraform-project-nb17/nodejs/nodejs
+  repository: us-central1-docker.pkg.dev/terraform-project-namazsari/nodejs/nodejs  
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0.0"
