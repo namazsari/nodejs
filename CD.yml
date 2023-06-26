@@ -1,7 +1,7 @@
 env:
   repo:         "https://github.com/farrukh90/nodejs.git"
   app_version:  "1.0.0"
-  project_id:   "terraform-project-nb17"
+  project_id:   "terraform-project-namazsari"
   repo_region:  "us-central1"
   app_name:     "nodejs"
 
