@@ -51,14 +51,14 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: nodejs.ozzynsari.com
+    - host: dev2.ozzynsari.com
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls: 
     - secretName: nodejs-dev-tls
       hosts:
-        - nodejs.ozzynsari.com 
+        - dev2.ozzynsari.com 
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
